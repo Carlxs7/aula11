@@ -1,122 +1,85 @@
-#  🚀 Aula 11 - Site com TailwindCSS
+<div align="center"> 
+  <h2>Aula 11 - Designer Web 🎨</h2>
 
-<div align="center">
-<img width="1500" height="1900" alt="image" src="https://github.com/user-attachments/assets/aa2b5d6f-12bd-428f-89a2-b628a7415d6b" />
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+
+## 🌐 Demonstração
+
+<img width="1362" height="8158" alt="image" src="https://github.com/user-attachments/assets/aadf004e-2373-4c5d-b6ac-1bb23610d403" />
+
+  🔗 [Acesse o projeto online](https://carlxs7.github.io/aula11/)
 </div>
 
-## ✨ Características
+## 📋 Sobre o Projeto
 
-- **Design Moderno**: Interface com gradientes vibrantes e efeitos de vidro fosco (glassmorphism)
-- **Totalmente Responsivo**: Layout adaptável para todos os tamanhos de tela
-- **Animações Suaves**: Transições e efeitos hover que melhoram a experiência do usuário
-- **Performance Otimizada**: Carregamento rápido utilizando Tailwind CSS via CDN
-- **Navegação Fixa**: Menu superior com efeito blur que acompanha o scroll
+Landing page moderna e responsiva desenvolvida durante a Aula 11, focada em apresentar serviços de design web UX/UI. O projeto apresenta um design elegante com gradientes em tons de roxo, animações suaves e uma interface totalmente responsiva.
 
-## 🎨 Tecnologias Utilizadas
+### 🛠️ Recursos e Bibliotecas
 
-- **HTML5**: Estrutura semântica da página
-- **Tailwind CSS**: Framework CSS utilitário para estilização rápida e responsiva
-- **SVG**: Ícones e elementos visuais
+- **Tailwind CSS CDN** - Framework CSS utilitário
+- **SVG Icons** - Ícones personalizados inline
+- **JavaScript Vanilla** - Para funcionalidades interativas
 
-## 🎯 Funcionalidades
+## 💻 Funcionalidades
 
-### Navegação
+### 🧭 Navegação Responsiva
 - Menu fixo no topo com efeito backdrop blur
-- Links de navegação com animações hover
-- Design minimalista e intuitivo
+- Menu para dispositivos móveis
+- Links de navegação com efeitos hover
 
-### Seção Hero
-- Gradiente dinâmico de fundo (slate-900 → purple-900)
-- Grid pattern decorativo em SVG
-- Badge de "Novidades" destacado
-- Título chamativo com gradiente de texto
-- Subtítulo descritivo e convidativo
+### 🎯 Seção Hero
+- Título impactante com gradiente de texto
+- Badge de novidades
+- Subtítulo descritivo
 
-### Cards de Recursos
-Três cards interativos apresentando:
-1. **Performance Rápida** ⚡
-   - Velocidade e eficiência para aplicações
-   
-2. **Alcance Amplificado** 📢
-   - Expansão de mensagem e conquista de público
-   
-3. **Experiência Personalizada** 🎫
-   - Soluções customizadas para cada cliente
+### 📦 Cards de Serviços
+- Grid responsivo com 3 cards
+- Ícones SVG personalizados
+- Efeitos hover com scale e transição de cor
+- Glassmorphism effect
 
-Cada card possui:
-- Efeito hover com escala aumentada
-- Ícones animados
-- Bordas translúcidas
-- Background com glassmorphism
-
-## 🚀 Como Usar
-
-1. **Clone o repositório**:
-```bash
-git clone https://github.com/Carlxs7/aula11.git
-```
-
-2. **Navegue até o diretório**:
-```bash
-cd aula11
-```
-
-3. **Abra o arquivo HTML**:
-   - Simplesmente abra o arquivo `index.html` no seu navegador preferido
-   - Ou use um servidor local como Live Server no VS Code
+### 🖼️ Carrossel de Imagens
+- Transição automática a cada 4 segundos
+- 3 imagens rotativas
+- Indicadores de posição (dots)
+- Efeito de zoom no hover
+- Border em gradiente roxo
 
 ## 📱 Responsividade
 
-O projeto utiliza classes responsivas do Tailwind CSS:
-- `md:grid-cols-3`: Grid de 3 colunas em telas médias e maiores
-- `md:text-6xl`: Tamanhos de texto adaptáveis
-- Layout mobile-first que se adapta automaticamente
+O projeto é totalmente responsivo e se adapta a diferentes tamanhos de tela:
 
-## 🎨 Paleta de Cores
+- **Mobile** (< 768px): Menu e cards em coluna única
+- **Tablet** (768px - 1024px): Layout otimizado para telas médias
+- **Desktop** (> 1024px): Layout completo com grid de 3 colunas
 
-- **Primária**: Tons de roxo (purple-400, purple-500, purple-900)
-- **Secundária**: Tons de rosa (pink-400)
-- **Base**: Slate (slate-300, slate-900)
-- **Destaques**: Gradientes de roxo para rosa
+## 🎭 Animações e Efeitos
 
-## 🌟 Destaques Visuais
+- **Hover Effects**: Scale, mudança de cor, transições suaves
+- **Backdrop Blur**: Efeito de desfoque na navegação
+- **Gradient Text**: Texto com gradiente animado
+- **Auto Carousel**: Rotação automática de imagens
+- **Smooth Transitions**: Todas as transições com duração de 300ms
 
-- **Glassmorphism**: Efeito de vidro fosco nos cards e navegação
-- **Gradientes**: Transições suaves de cores
-- **Animações**: Transformações e transições CSS
-- **Grid Pattern**: Padrão de fundo SVG sutil
+## 🤝 Como Contribuir
 
-## 📄 Estrutura do Projeto
+Contribuições são sempre bem-vindas! Para contribuir:
 
-```
-aula11/
-│
-├── index.html          # Arquivo principal HTML
-└── README.md           # Documentação do projeto
-```
+1. Faça um fork do projeto
+2. Crie uma branch para sua feature (`git checkout -b feature/NovaFeature`)
+3. Commit suas mudanças (`git commit -m 'Adiciona nova feature'`)
+4. Push para a branch (`git push origin feature/NovaFeature`)
+5. Abra um Pull Request
 
-## 🔧 Personalização
+## 📄 Licença
 
-Para personalizar o projeto:
-
-1. **Cores**: Modifique as classes de cor do Tailwind (ex: `purple-500` → `blue-500`)
-2. **Conteúdo**: Edite os textos dentro das tags HTML
-3. **Cards**: Adicione ou remova cards duplicando a estrutura existente
-4. **Ícones**: Substitua os SVGs pelos ícones de sua preferência
-
-## 📝 Licença
-
-Este projeto está sob a licença MIT. Sinta-se livre para usar, modificar e distribuir.
-
-## 👤 Autor
-
-**Carlos**
-- GitHub: [@Carlxs7](https://github.com/Carlxs7)
-
-## 🤝 Contribuições
-
-Contribuições são sempre bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ---
 
-⭐ Se este projeto foi útil para você, considere dar uma estrela no repositório!
+<p align="center">
+  Feito com 💙 e muito ☕ por <a href="https://github.com/Carlxs7">Carlxs7</a>
+</p>
