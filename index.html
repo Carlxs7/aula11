@@ -4,58 +4,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>tailwindcss</title>
+    <link rel="icon" href="img/logo.png">
+    <title>Aula 11 - Designer Web</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body class="m-0 p-0 bg-slate-900">
 
     <nav class="fixed top-0 left-0 right-0 z-50 backdrop-blur-md border-b border-white/10">
-  <div class="px-4 sm:px-6 lg:px-8 py-4">
-    <div class="flex justify-between items-center">
-      
-      <div class="flex-shrink-0 flex items-center">
-        <h1 class="text-2xl font-bold cursor-pointer transition-all duration-300 hover:scale-105">
-          <span class="bg-white bg-clip-text text-transparent">Dev</span><span class="bg-gradient-to-r from-purple-500 to-gray-300 bg-clip-text text-transparent hover:from-purple-600 hover:to-gray-200 transition-all duration-300">Carlxs
-          </span>
-        </h1>
-      </div>
+        <div class="px-4 sm:px-6 lg:px-8 py-4">
+            <div class="flex justify-between items-center">
 
-      <ul class="hidden md:flex flex-1 justify-center items-center gap-8 lg:gap-12">
-        <li><a href="#" class="text-slate-300 hover:text-purple-400 transition-colors duration-300 font-medium">Início</a></li>
-        <li><a href="#" class="text-slate-300 hover:text-purple-400 transition-colors duration-300 font-medium">Sobre</a></li>
-        <li><a href="#" class="text-slate-300 hover:text-purple-400 transition-colors duration-300 font-medium">Contato</a></li>
-      </ul>
+                <div class="flex-shrink-0 flex items-center">
+                    <h1 class="text-2xl font-bold cursor-pointer transition-all duration-300 hover:scale-105">
+                        <span class="bg-white bg-clip-text text-transparent">Dev</span><span
+                            class="bg-gradient-to-r from-purple-500 to-gray-300 bg-clip-text text-transparent hover:from-purple-600 hover:to-gray-200 transition-all duration-300">Carlxs
+                        </span>
+                    </h1>
+                </div>
 
-      <div class="md:hidden">
-        <button id="mobile-menu-button" class="text-slate-300 focus:outline-none">
-          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/>
-          </svg>
-        </button>
-      </div>
+                <ul class="hidden md:flex flex-1 justify-center items-center gap-8 lg:gap-12">
+                    <li><a href="#"
+                            class="text-slate-300 hover:text-purple-400 transition-colors duration-300 font-medium">Início</a>
+                    </li>
+                    <li><a href="#"
+                            class="text-slate-300 hover:text-purple-400 transition-colors duration-300 font-medium">Sobre</a>
+                    </li>
+                    <li><a href="#"
+                            class="text-slate-300 hover:text-purple-400 transition-colors duration-300 font-medium">Contato</a>
+                    </li>
+                </ul>
 
-      <div class="hidden md:hidden w-[120px]"></div>
-    </div>
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-slate-300 focus:outline-none">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                </div>
 
-    <div id="mobile-menu" class="md:hidden hidden mt-4">
-      <ul class="flex flex-col gap-4">
-        <li><a href="#" class="text-slate-300 hover:text-purple-400 transition-colors duration-300 font-medium">Início</a></li>
-        <li><a href="#" class="text-slate-300 hover:text-purple-400 transition-colors duration-300 font-medium">Sobre</a></li>
-        <li><a href="#" class="text-slate-300 hover:text-purple-400 transition-colors duration-300 font-medium">Contato</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
+                <div class="hidden md:hidden w-[120px]"></div>
+            </div>
 
-<script>
-  const menuButton = document.getElementById('mobile-menu-button');
-  const mobileMenu = document.getElementById('mobile-menu');
+            <div id="mobile-menu" class="md:hidden hidden mt-4">
+                <ul class="flex flex-col gap-4">
+                    <li><a href="#"
+                            class="text-slate-300 hover:text-purple-400 transition-colors duration-300 font-medium">Início</a>
+                    </li>
+                    <li><a href="#"
+                            class="text-slate-300 hover:text-purple-400 transition-colors duration-300 font-medium">Sobre</a>
+                    </li>
+                    <li><a href="#"
+                            class="text-slate-300 hover:text-purple-400 transition-colors duration-300 font-medium">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-  menuButton.addEventListener('click', () => {
-    mobileMenu.classList.toggle('hidden');
-  });
-</script>
+    <script>
+        const menuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        menuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
 
     <section
         class="relative overflow-hidden bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 min-h-screen w-full flex flex-col items-center justify-center px-6 pt-24 pb-16">
@@ -126,7 +140,61 @@
                 </div>
             </div>
 
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-6xl font-bold text-white mb-6">
+                    Crie seus projetos com
+                    <span class="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
+                        Designer UX/UI
+                    </span>
+                </h2>
+            </div>
+
+            <div
+                class="relative w-full max-w-5xl sm:max-w-5xl mx-auto aspect-[16/9] md:aspect-[3/2] overflow-hidden rounded-2xl shadow-2xl border border-purple-700 group">
+                <div class="absolute inset-0 transition-opacity duration-1000 opacity-100">
+                    <img src="https://i.pinimg.com/1200x/63/cb/b4/63cbb4dd7603fe28e86e2f4e791fb370.jpg"
+                        class="w-full h-full object-cover object-center transition-transform duration-700 ease-out group-hover:scale-110"
+                        alt="Imagem 1">
+                </div>
+                <div class="absolute inset-0 transition-opacity duration-1000 opacity-0">
+                    <img src="https://i.pinimg.com/736x/88/3b/99/883b99fdec8c6cf4dff116a3ce7b3a0a.jpg"
+                        class="w-full h-full object-cover object-center transition-transform duration-700 ease-out group-hover:scale-110"
+                        alt="Imagem 2">
+                </div>
+                <div class="absolute inset-0 transition-opacity duration-1000 opacity-0">
+                    <img src="https://i.pinimg.com/1200x/d6/8a/07/d68a0779b20a218ecc5a71feac02af96.jpg"
+                        class="w-full h-full object-cover object-center transition-transform duration-700 ease-out group-hover:scale-110"
+                        alt="Imagem 3">
+                </div>
+                <div class="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2">
+                    <span class="w-3 h-3 rounded-full bg-purple-500 opacity-80 transition-all duration-500"></span>
+                    <span class="w-3 h-3 rounded-full bg-white/40 transition-all duration-500"></span>
+                    <span class="w-3 h-3 rounded-full bg-white/40 transition-all duration-500"></span>
+                </div>
+            </div>
+        </div>
     </section>
+
+    <script>
+        const slides = document.querySelectorAll(".absolute.inset-0.transition-opacity");
+        const dots = document.querySelectorAll(".absolute.bottom-4 span");
+        let index = 0;
+
+        function showSlide(i) {
+            slides.forEach((slide, n) => {
+                slide.style.opacity = n === i ? "1" : "0";
+                dots[n].classList.toggle("bg-purple-500", n === i);
+                dots[n].classList.toggle("bg-white/40", n !== i);
+            });
+        }
+
+        function nextSlide() {
+            index = (index + 1) % slides.length;
+            showSlide(index);
+        }
+
+        setInterval(nextSlide, 4000);
+    </script>
 
 </body>
 
